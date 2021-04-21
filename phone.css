@@ -1,0 +1,54 @@
+/* NAVIGATION SECTION */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* HOME SECTION */
+#home{
+height: 380px;
+flex-direction: column;
+padding: 3px 70px;
+}
+#home::before{
+    height: 500px;
+}
+#home p{
+    font-size: 13px;
+}
+/* SERVICES SECTION */
+#sevices{
+  flex-direction: column;
+}
+#services.box{
+padding: 14px;
+margin: 2px 15px;
+margin-bottom: 20px;
+}
+/* DELIVERY SECTION */
+#delivery{
+flex-wrap: wrap;
+}
+#delivery img{
+    width: 60px;
+    padding: 2px 8px;
+    }
+/* REGISTER SECTION */
+
+/* FOOTER */
+
+/* UTILITY CLASSES */
+.h-primary{
+font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+#menu{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
